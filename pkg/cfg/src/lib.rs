@@ -4,6 +4,7 @@ use std::{
     path::{Path, PathBuf},
 };
 
+#[derive(Debug)]
 pub struct Cfg {
     pub data_path: String,
     pub config_path: String,
